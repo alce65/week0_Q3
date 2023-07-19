@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Selector de etiqueta */
+
+header {
+  background-color: brown;
+}
+
+/* Selector de clase */
+
+.foo {
+  background-color: brown;
+}
+
+/* Selector de id */
+
+#foo {
+  background-color: brown;
+}
+
+/* Selector de atributo */
+
+[for] {
+  color: bisque;
+}
+
+[width='200'] {
+  border: 2px solid;
+}
+
+/* Selectores multiples*/
+
+div.foo {
+  background-color: azure;
+}
+
+button[type='submit'] {
+  background-color: azure;
+}
+
+/* Combinación de selectores */
+
+/* section p {
+  color: blueviolet;
+} */
+
+section > p {
+  color: blueviolet;
+}
+
+section ~ p {
+  color: aqua;
+}
+
+section + p {
+  color: chartreuse;
+}
+
+/* Pseudo Elementos */
+/* Pseudo Clases*/
+
+p::first-letter {
+  font-size: 1.4rem;
+}
+
+article p::first-line {
+  text-decoration: underline;
+}
+
+p:hover {
+  font-size: 1.3rem;
+}
+
+p:nth-child(2) {
+  font-style: italic;
+}
+
+p:nth-of-type(2) {
+  font-weight: 900;
+}
+
+div,
+address {
+  color: beige;
+}
+
+nav ol li:nth-child(2n) {
+  color: chocolate;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ol {
+  list-style: none;
+}
