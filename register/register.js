@@ -1,1 +1,1 @@
-console.log('Register');
+console.log('Register is ok');
