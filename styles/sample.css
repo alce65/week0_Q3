@@ -1,0 +1,9 @@
+dialog.greetings {
+  background-color: brown;
+  color: bisque;
+}
+
+dialog.greetings::backdrop {
+  background-color: rgb(255, 228, 196);
+  opacity: 0.5;
+}

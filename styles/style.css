@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100vh;
+}
+
 /* Selector de etiqueta */
 
 header {
@@ -10,8 +15,8 @@ header {
 
 /* Selector de clase */
 
-.foo {
-  background-color: brown;
+div.foo {
+  background-color: rgb(87, 57, 57);
 }
 
 /* Selector de id */
@@ -47,7 +52,7 @@ button[type='submit'] {
 } */
 
 section > p {
-  color: blueviolet;
+  color: rgb(137, 43, 226);
 }
 
 section ~ p {
@@ -97,4 +102,20 @@ nav a {
 
 nav ol {
   list-style: none;
+}
+
+nav li {
+  background-color: aqua;
+}
+
+nav li::before {
+  content: '🌀';
+}
+
+[type='text'] {
+  font-weight: 900;
+}
+
+[type='text']::placeholder {
+  font-weight: 100;
 }
