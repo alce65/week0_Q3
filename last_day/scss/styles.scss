@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  .menu {
+    &__item {
+      &--small {
+      }
+    }
+
+    &--vertical {
+    }
+  }
+}
+
+.footer {
+}
