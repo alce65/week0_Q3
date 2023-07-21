@@ -4,7 +4,9 @@
   "description": "Learning Git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Pass test specified\" && exit 0",
+    "sass": "sass last_day/scss:last_day/css --watch --no-source-map ",
+    "prepare": "husky install"
   },
   "keywords": [
     "Git",
@@ -15,5 +17,9 @@
   "license": "ISC",
   "prettier": {
     "singleQuote": true
+  },
+  "devDependencies": {
+    "sass": "^1.64.0",
+    "husky": "^8.0.0"
   }
 }
